@@ -1,0 +1,36 @@
+{
+  "name": "hw5-auth",
+  "version": "1.0.0",
+  "description": "Contact management application with authentication",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/keserizzet/hw5-auth.git"
+  },
+  "keywords": ["nodejs", "express", "mongodb", "authentication"],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/keserizzet/hw5-auth/issues"
+  },
+  "homepage": "https://github.com/keserizzet/hw5-auth#readme",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "create-http-error": "^1.0.3",
+    "dotenv": "^17.2.0",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.16.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
